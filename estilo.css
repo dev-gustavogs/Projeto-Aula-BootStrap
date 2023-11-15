@@ -25,6 +25,11 @@
   margin: 70px;
   font-weight: 700;
 }
+.email{
+  border-radius: 10px;
+  width: 450px;
+  height: 45px;
+}
 .botao2{
   color: white;
   border-radius: 10px;
