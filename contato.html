@@ -40,6 +40,9 @@
                         <li class="nav-item menu">
                             <a class="nav-link" href="admin.html">Admin</a>
                         </li>
+                        <li class="nav-item menu">
+                            <a class="nav-link" href="mensagens.html">Mensagens</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -50,19 +53,19 @@
 <section class="contato">
     <div>
         <fieldset>
-            <form action="">
-            <label for="name">Nome:</label>
-            <input type="text" id="name" name="name" required>
+            <form id="form-contato" action="">
+                <label for="name">Nome:</label>
+                <input type="text" id="nome" name="name" required>
 
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
 
-            <label for="subject">Enviar Mensagem</label>
-            <textarea id="mensagem" name="mensagem" required></textarea>
-            
-            <button class="cont">
-                Enviar
-            </button>
+                <label for="mensagem">Enviar Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                
+                <button type="button" id="enviar-mensagem" class="cont">
+                    Enviar
+                </button>
             </form>
         </fieldset>
     </div>
@@ -127,7 +130,6 @@
 </footer>
 <!-- Rodapé - Fim -->
 
-<!-- Inclua o Bootstrap (JS) no final do corpo para otimizar o carregamento -->
 <script src="js/jquery-3.6.4.min.js"></script>
 <script src="js/api.js"></script>
 <script src="/myjs.js"></script>
